@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(void) {
-    int i = 0;
-    for(i=0; i<5; i++){
-        printf("Hello\n"); //print Hello 5 times
+    int count = 0;
+    for(count=1; count<6; count++){
+        printf("%d \n",count); //print numbers 1 to 5
     }
     return 0;
 }
