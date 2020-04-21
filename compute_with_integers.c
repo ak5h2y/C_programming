@@ -1,8 +1,9 @@
 #include <stdio.h>
-int main() {
-    int age;//DECLARE
-    printf("What is your age ?\n"); 
-    scanf("%d",&age); //GET user input
-    printf("You are %d years old\n", age);//USE
+int main(void) {
+    int first, second, third;
+    printf("Please enter three integers, separated by commas: ");
+    scanf("%d,%d,%d", &first, &second, &third);
+    printf("You entered: %d for first, %d for second, %d for third.\n", first, second, third);
+    
     return 0;
 }
