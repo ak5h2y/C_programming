@@ -1,11 +1,16 @@
 #include <stdio.h>
-int main(void) {
-    //Create a variable to store an integer value
-    int age;
-    //Assigne a value to that variable
-    age = 47;
-    printf("I am %d years old.\n", age);
-    printf("In %d years, I will be %d years old.\n", 8, age+8);
-    printf("%d years ago, I was %d years old.\n", 11, age-11);
+int main() {
+    int balance;//creating a variable containing integer values
+    balance = 50;//assigning the value 50 into the balance variable
+    printf("I have %d dollars in my account\n",balance);
+    //expense of 40 dollars
+    balance = balance - 40;
+    printf("I have %d dollars in my account\n",balance);
+    //add 20 dollars in my account
+    balance = balance + 20;
+    printf("I have %d dollars in my account\n",balance);
+    //expense of 30 dollars
+    balance = balance - 30;
+    printf("I have %d dollar in my account\n",balance);
     return 0;
 }
